@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "testing-cookiecutter-django"
+version = "0.1.0"
+description = ""
+authors = ["Gustavo Rizzo S M de Albuquerque <grizzo.albu@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+cookiecutter = "^2.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
